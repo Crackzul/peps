@@ -43,8 +43,20 @@ li {
     background-color: #fe4676;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 16px ;
 }
+
+a {
+    text-decoration-line: none;
+}
+
+.btn a {
+    text-decoration-line: none;
+    color: white ;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .vision {
     background-image: url(../img/img/photo-1556139943-4bdca53adf1e\ 1.jpg);
     background-size: cover;
@@ -55,5 +67,44 @@ li {
     justify-content: center;
 }
 
+.photo_index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.drh {
+    padding-left: 8rem;
+}
 
+.drh h2 {
+    text-transform: uppercase;
+}
+
+.approche {
+    text-align: center;
+    margin-left: 3rem;
+    margin-top: 0;
+}
+
+section::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    background-color:#68D8EE;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: solid  #fe4676;
+    text-decoration: none;
+    border-radius: 5px;
+    color:#fe4676;
+}
+
+.méthode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
