@@ -11,6 +11,7 @@ body {
     font-family: "Roboto-Regular", sans-serif;
     margin: 0;
     padding: 0;
+    display: ;
 }
 
 h1 { font-size: 64px; }
@@ -101,6 +102,7 @@ a {
     text-decoration: none;
     border-radius: 5px;
     color:#fe4676;
+    text-transform: uppercase;
 }
 
 .méthode {
@@ -134,3 +136,17 @@ a {
     width: 10vh;
 
 }
+
+.accompagnement {
+    text-align: center;
+    margin: 10vh;
+}
+
+.talents {
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+    margin: 10vh;
+    text-align: center;
+}
+
