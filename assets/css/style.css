@@ -58,6 +58,10 @@ a {
     text-align: center;
 }
 
+.main_menu {
+    display: flex;
+}
+
 .vision {
     background-image: url(../img/img/photo-1556139943-4bdca53adf1e\ 1.jpg);
     background-size: cover;
