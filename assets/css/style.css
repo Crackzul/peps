@@ -20,17 +20,12 @@ h3 { font-size: 24px; }
 h2 {
     display: flex;
     justify-content: center;
+    text-transform: uppercase;
 }
-header {
-    
-}
-
 
 .main_menu {
     display: flex;
     align-items: center;
-    
-    
 }
 
 .main_menu .logo {
@@ -174,12 +169,37 @@ a {
 .témoignages {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     gap: 5vh;
 }
 
 .témoignage {
     border: solid 1px #68D8EE;
-    width: 30vh;
-    height: 30vh;
-    
+    width: 40vh;
+    height: 50vh;
+}
+
+.overflow {
+    position: relative;
+    top: -3vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    background-color: white;
+}
+
+.blog_titre {
+    margin-top: 10vh;
+}
+.blogp {
+    text-align: center;
+}
+
+.articles_blog {
+    display: flex;
+
+}
+
+.article {
+    display: flex;
 }
