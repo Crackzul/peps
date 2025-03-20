@@ -98,13 +98,6 @@ a {
     margin-top: 0;
 }
 
-/* section::after {
-    content: "";
-    display: inline-block;
-    width: 20px;
-    background-color:#68D8EE;
-} */
-
 .btn2 {
     display: inline-block;
     padding: 1rem 2rem;
@@ -154,7 +147,6 @@ a {
 .talents {
     display: flex;
     justify-content: center;
-    align-items: ;
     gap: 10vh;
     margin: 10vh;
     text-align: center;
@@ -197,9 +189,68 @@ a {
 
 .articles_blog {
     display: flex;
+    flex-direction: column;
+    margin-left: 10vh;
+    margin-right: 10vh;
 
 }
 
 .article {
     display: flex;
+    margin-bottom: 5vh;
+}
+.photo_blog1 {
+    width: 30vh;
+    height: 30vh;
+    margin-right: 10vh;
+}
+
+.photo_blog2 {
+    width: 30vh;
+    height: 30vh;
+    margin-right: 10vh;
+}
+
+.article .btn2 {
+    padding: 1rem 4rem;
+}
+
+.articles_blog::after {
+    content: "";
+    display: inline-block;
+    width: 170vh;
+    height: 2px;
+    background-color: #68D8EE;
+}
+
+.p_talent::before {
+    content: "";
+    display: inline-block;
+    width: 30vh;
+    height: 20px;
+    background-color: #68D8EE;
+    position: relative;
+    bottom: 6vh;
+    z-index: -1;
+}
+
+.p_carrière::before {
+    content: "";
+    display: inline-block;
+    width: 30vh;
+    height: 20px;
+    background-color: #FFE17A;
+    position: relative;
+    bottom: 6vh;
+    z-index: -1;
+}
+.p_force::before {
+    content: "";
+    display: inline-block;
+    width: 30vh;
+    height: 20px;
+    background-color: #DB7CF2;
+    position: relative;
+    bottom: 6vh;
+    z-index: -1;
 }
