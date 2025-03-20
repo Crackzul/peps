@@ -16,6 +16,7 @@ body {
 
 h1 { font-size: 64px;
     text-align: center;
+    text-transform: uppercase;
  }
 h2 { font-size: 28px;
     text-transform: uppercase;
@@ -286,4 +287,20 @@ a {
     position: relative;
     top: 7vh;
     right: 42vh;
+}
+.pied {
+    width: 100%;
+    background-color: #e2e2e2;
+    margin-top: 10vh;
+}
+.pied {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mentions {
+    background-color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+   
 }
