@@ -14,14 +14,14 @@ body {
     display: ;
 }
 
-h1 { font-size: 64px; }
-h2 { font-size: 28px; }
-h3 { font-size: 24px; }
-h2 {
-    display: flex;
-    justify-content: center;
+h1 { font-size: 64px;
+    text-align: center;
+ }
+h2 { font-size: 28px;
     text-transform: uppercase;
 }
+h3 { font-size: 24px; }
+
 
 .main_menu {
     display: flex;
@@ -113,6 +113,7 @@ a {
     flex-direction: column;
     align-items: center;
     margin-bottom: 10vh;
+    margin-top: 10vh;
 }
 
 .cadre {
@@ -182,8 +183,6 @@ a {
 
 .blog_titre {
     margin-top: 10vh;
-}
-.blogp {
     text-align: center;
 }
 
@@ -214,6 +213,7 @@ a {
 .article .btn2 {
     padding: 1rem 4rem;
 }
+
 
 .articles_blog::after {
     content: "";
@@ -253,4 +253,37 @@ a {
     position: relative;
     bottom: 6vh;
     z-index: -1;
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+}
+
+.trait_bleu {
+    margin-bottom: 8vh;
+}
+.trait_bleu::before {
+    content: "";
+    display:inline-block;
+    width: 30vh;
+    height: 2px;
+    background-color: #68D8EE;
+    position: relative;
+    bottom: 10vh;
+    left: 30vh;
+}
+.regret {
+    text-align: center;
+}
+
+.trait_bleu2::after {
+    content: "";
+    display:inline-block;
+    width: 30vh;
+    height: 2px;
+    background-color: #68D8EE;
+    position: relative;
+    top: 7vh;
+    right: 42vh;
 }
