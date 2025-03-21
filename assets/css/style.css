@@ -193,7 +193,8 @@ a {
 .box {
     display: flex;
     flex-direction: column;
-    max-width: 30vh;  
+    max-width: 30vh;
+    justify-content: space-around;  
 }
 
 .témoignages {
@@ -308,7 +309,7 @@ a {
     background-color: #68D8EE;
     position: relative;
     bottom: 10vh;
-    left: 30vh;
+    left: 40vh;
 }
 .regret {
     padding: 5vh;
@@ -316,7 +317,7 @@ a {
 }
 .regret h2 {
     position: relative;
-    left: 45vh;
+    left: 22vh;
 }
 
 .trait_bleu2::after {
@@ -327,7 +328,7 @@ a {
     background-color: #68D8EE;
     position: relative;
     top: 7vh;
-    right: 42vh;
+    right: 73%;
 }
 .pied {
     width: 100%;
@@ -357,6 +358,17 @@ a {
     bottom: -3vh;
     left: 5vh;
 }
+
+.articles_blog::before {
+    content: "";
+    display: inline-block;
+    width: 170vh;
+    height: 2px;
+    background-color: #68D8EE;
+    position: relative;
+    bottom: -33vh;
+    }
+
 
 @media screen and (max-width: 360px) {
 
@@ -518,6 +530,26 @@ a {
     align-items: center;
    }
 
-   .ul {
-    padding-inline-start: -80px;
+   .mentions {
+    padding-left: 0;
    }
+
+
+   ul {
+    padding-left: 0;
+   }
+
+   li {
+    padding-top: 5vw;
+   }
+
+   .trait_bleu2::after {
+    content: "";
+    display: inline-block;
+    width: 30vh;
+    height: 2px;
+    background-color: #68D8EE;
+    position: relative;
+    top: 7vh;
+    left: 3vh;
+
