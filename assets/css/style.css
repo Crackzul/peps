@@ -25,13 +25,27 @@ h2 { font-size: 28px;
 h3 { font-size: 24px; }
 
 p {
-    font-weight:550;
+    font-size: 16px;
+}
+.p_regret {
+    font-weight:400;
+    margin-left: 2vh;
+    margin-right: 2vh;
 }
 
+.p_nom {
+    margin: 0;
+    font-size: 14px;
+
+}
+.p_fonction {
+    margin: 0;
+}
 
 .main_menu {
     display: flex;
     align-items: center;
+    margin-right: 20vh;
 }
 
 .main_menu .logo {
@@ -40,6 +54,9 @@ p {
     margin-bottom:3vh;
 }
 
+.menu_haut {
+    margin-left: 5vh;
+}
 
 ul {
     list-style: none;
@@ -50,6 +67,10 @@ ul {
 
 li {
     margin-left: 1rem;
+}
+
+.approche {
+    padding-top: 5vh;
 }
 
 .btn {
@@ -63,6 +84,16 @@ li {
 a {
     text-decoration-line: none;
     color: black;
+    font-weight: 550;
+}
+.pied a {
+    font-weight: 400;
+}
+.pied li {
+    margin-left: 1vh;
+}
+.pied h3 {
+    font-weight:400;
 }
 
 .btn a {
