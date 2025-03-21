@@ -370,9 +370,11 @@ a {
         margin: 0;
     }
     
-    .logo {
-        margin: 0;
-        margin-right: 0;
+    .main_menu .logo {
+        margin-left: 0;
+        position: relative;
+        left: 2vh;
+        
     }
 
     ul {
