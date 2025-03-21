@@ -358,3 +358,32 @@ a {
     left: 5vh;
 }
 
+@media screen and (max-width: 360px) {
+
+    .main_menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .menu_haut {
+        margin: 0;
+    }
+    
+    .logo {
+        margin: 0;
+        margin-right: 0;
+    }
+
+    ul {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 10vw;
+    }
+    
