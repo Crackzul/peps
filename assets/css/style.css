@@ -11,7 +11,6 @@ body {
     font-family: "Roboto-Regular", sans-serif;
     margin: 0;
     padding: 0;
-    display: ;
 }
 
 h1 { font-size: 64px;
@@ -23,6 +22,8 @@ h2 { font-size: 28px;
     font-weight: 550;
 }
 h3 { font-size: 24px; }
+
+
 
 p {
     font-size: 16px;
@@ -67,10 +68,6 @@ ul {
 
 li {
     margin-left: 1rem;
-}
-
-.approche {
-    padding-top: 5vh;
 }
 
 .btn {
@@ -124,6 +121,7 @@ a {
 
 .drh {
     padding-left: 8rem;
+    text-align: left;
 }
 
 .drh h2 {
@@ -134,7 +132,8 @@ a {
     text-align: center;
     margin-left: 3rem;
     margin-top: 0;
-}
+    padding-top: 5vh;
+    }
 
 .btn2 {
     display: inline-block;
@@ -312,7 +311,12 @@ a {
     left: 30vh;
 }
 .regret {
-    text-align: center;
+    padding: 5vh;
+    align-items: center;
+}
+.regret h2 {
+    position: relative;
+    left: 45vh;
 }
 
 .trait_bleu2::after {
