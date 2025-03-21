@@ -20,8 +20,13 @@ h1 { font-size: 64px;
  }
 h2 { font-size: 28px;
     text-transform: uppercase;
+    font-weight: 550;
 }
 h3 { font-size: 24px; }
+
+p {
+    font-weight:550;
+}
 
 
 .main_menu {
@@ -57,6 +62,7 @@ li {
 
 a {
     text-decoration-line: none;
+    color: black;
 }
 
 .btn a {
@@ -292,15 +298,28 @@ a {
     width: 100%;
     background-color: #e2e2e2;
     margin-top: 10vh;
-}
-.pied {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
-.mentions {
-    background-color: #e2e2e2;
+
+.logo_contact {
     display: flex;
-    justify-content: center;
-   
+    text-align:left;
 }
+
+.logo_bas {
+    margin-right: 10vh;
+}
+
+.logo_bas::after {
+    content: "";
+    display:inline-block;
+    width: 2px;
+    height: 15vh;
+    background-color: black;
+    position: relative;
+    bottom: -3vh;
+    left: 5vh;
+}
+
