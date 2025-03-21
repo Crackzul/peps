@@ -387,6 +387,7 @@ a {
         margin-left: 0;
         position: relative;
         left: 2vh;
+        margin-top: 3vh;
     }
         
     ul {
@@ -552,4 +553,69 @@ a {
     position: relative;
     top: 7vh;
     left: 3vh;
+   }
 
+    .p_talent::before {
+        content: "";
+        display: inline-block;
+        width: 30vh;
+        height: 20px;
+        background-color: #68D8EE;
+        position: relative;
+        bottom: 6vh;
+        right: 3vh;
+        z-index: -1;
+    }
+    
+    .p_carrière::before {
+        content: "";
+        display: inline-block;
+        width: 30vh;
+        height: 20px;
+        background-color: #FFE17A;
+        position: relative;
+        bottom: 6vh;
+        right: 3vh;
+        z-index: -1;
+    }
+    .p_force::before {
+        content: "";
+        display: inline-block;
+        width: 30vh;
+        height: 20px;
+        background-color: #DB7CF2;
+        position: relative;
+        bottom: 6vh;
+        right: 3vh;
+        z-index: -1;
+    }
+
+    .espace_titre_blog {
+        margin-top: 8vh;
+    }
+
+    .articles_blog::before {
+        content: "";
+        display: inline-block;
+        width: 30vh;
+        height: 2px;
+        background-color: #68D8EE;
+        position: relative;
+        bottom: -73vh;
+        }
+    
+    .contact {
+        text-align: center;
+    }
+
+    .trait_bleu {
+        text-align: center;
+    }
+
+    @media screen and (max-width: 768px) {
+
+        .main_menu .logo {
+            
+        }
+
+    }
