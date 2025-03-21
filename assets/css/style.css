@@ -366,6 +366,7 @@ a {
         margin: 0;
         padding: 0;
     }
+
     .menu_haut {
         margin: 0;
     }
@@ -374,9 +375,8 @@ a {
         margin-left: 0;
         position: relative;
         left: 2vh;
-        
     }
-
+        
     ul {
         margin-left: 0;
         margin-right: 0;
@@ -388,4 +388,35 @@ a {
     h1 {
         font-size: 10vw;
     }
+
+    .approche { 
+        margin-left: 0;
+    }
+
+    .photo_index {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .méthode {
+       text-align: center;
+
+    }
+    .drh {
+        text-align: left;
+        padding-left: 10vw;
+    }
     
+    img {
+        max-width:100%;
+        max-height:100%;
+    }
+    .comprendre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .identifier {
+        display: flex;
+        flex-direction: column;
+    }
