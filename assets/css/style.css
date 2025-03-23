@@ -205,6 +205,12 @@ a {
     gap: 5vh;
 }
 
+
+.regret h2 {
+    text-align: center;
+
+}
+
 .témoignage {
     border: solid 1px #68D8EE;
     width: 40vh;
@@ -300,23 +306,6 @@ a {
 
 .trait_bleu {
     margin-bottom: 8vh;
-}
-.trait_bleu::before {
-    content: "";
-    display:inline-block;
-    width: 30vh;
-    height: 2px;
-    background-color: #68D8EE;
-    position: relative;
-    bottom: 10vh;
-    left: 40vh;
-}
-.regret {
-    padding: 5vh;
-    align-items: center;
-}
-.regret h2 {
-    text-align: center;
 }
 
 .trait_bleu2::after {
